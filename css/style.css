@@ -302,4 +302,55 @@ footer {
 		text-decoration: underline;
 	}
 
+	/* Posititoning Classes */
+
+	.col1_left {
+		float: left;
+		width: 32.6%;
+		margin: 0 0 1%;
+		clear: both;
+	}
+
+	.col1_mid { /* give center column of three this class last */
+		float: left;
+		width: 32.6%;
+		margin: 0 1% 0 1%;
+	}
+
+	.col1_right {
+		float: right;
+		width: 32.6%;
+		margin: 0 0 1%; 
+	}
+
+	.col2_left {
+		float: left;
+		width: 66.4%;
+		margin: 0 1% 20px 0;
+	}
+
+	.col2_right {
+		float: right;
+		width: 66.4%;
+		margin: 0 0 20px 1%;
+	}
+
+	.col3 {
+		margin: 0 0 20px;
+		clear: both;
+	}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+.archive {
+	height:596px;
+}
+
 /* code examples copyright Jonathan Grover 2012 */
